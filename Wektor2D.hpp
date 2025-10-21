@@ -2,7 +2,6 @@ class Wektor2D
 {
     // Tutaj napisz implementacje klasy Wektor2D
 public:
-	void print() { std::println("[{},{}]\n", x, y); }
 	void setX(double x1) { x = x1; }
 	double getX() { return x; }
 	void setY(double y1) { y = y1; }
